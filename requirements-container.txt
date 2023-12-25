@@ -3,3 +3,8 @@ django-storages[azure,boto3,dropbox,google,libcloud,sftp]==1.13.1
 napalm==4.0.0
 psycopg2==2.9.3
 social-auth-core[openidconnect]==4.3.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=41.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
+paramiko>=3.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
